@@ -1,0 +1,89 @@
+{
+	"s1": [
+		["Taller 1: Cuerpo y Espacio", "S11009", 12, 0, "PROY", [], ""],
+		["Dibujo de Arquitectura", "S100000", 4, 0, "PROY", [], ""],
+		["Composicion", "S100001", 4, 0, "PROY", [], ""],
+		["Introduccion a la Teoria e Historia", "S100002", 4, 0, "ICS", [], ""],
+		["Materia y Construccion", "S100003", 4, 0, "TEC", [], ""],
+		["Geometria Aplicada a la Arquitectura", "S100004", 4, 0, "TEC", [], ""],
+		["Expresion Oral y Escrita", "S100005", 4, 0, "FG", [], ""]
+	],
+	"s2": [
+		["Taller 2: Cuerpo y Materia", "S11017", 12, 0, "PROY", ["S11009"], ""],
+		["Ideación Gráfica", "S11019", 4, 0, "PROY", ["S100000"], ""],
+		["Dimensión Material", "S11018", 4, 0, "PROY", ["S100001"], ""],
+		["Espacio y Percepción", "S11022", 4, 0, "ICS", [], ""],
+		["Introducción a los Sistemas Constructivos", "S11021", 4, 0, "TEC", ["S100003"], ""],
+		["Geometría y Topología", "S11054", 4, 0, "TEC", ["S100004"], ""],
+		["Curso Transversal Institucional 1", "S100006", 2, 0, "COMP", [], ""],
+		["Optativo 1", "S1000034", 2, 0, "FG", [], ""]
+	],
+	"s3": [
+		["Taller 3: Proyecto y Lugar", "S11053", 8, 0, "PROY", ["S11017"], ""],
+		["Razón y Lógica de los Tipos Estructurales", "S100007", 4, 0, "TEC", ["S11054"], ""],
+		["Semióloga de la Arquitectura", "S100008", 4, 0, "ICS", ["S100002"], ""],
+		["Introducción al Análisis Urbano", "S100009", 4, 0, "ICS", ["S11022"], ""],
+		["Construcción y Diseño Bioclimático", "S100010", 4, 0, "TEC", ["S11021"], ""],
+		["Curso Transversal Institucional 2", "S100011", 2, 0, "COMP", [], ""],
+		["Optativo 2", "S100012", 2, 0, "FG", [], ""],
+		["Práctica de Observación", "S11058", 2, 0, "PRAC", [], ""]
+	],
+	"s4": [
+		["Taller 4: Proyecto y Barrio", "S11059", 8, 0, "PROY", ["S11053"], ""],
+		["Herramientas Digitales", "S11060", 4, 0, "PROY", ["S11019"], ""],
+		["Historia y Pensamiento Latinoamericano", "S11063", 4, 0, "ICS", [], ""],
+		["Sistemas Constructivos Tradicionales", "S11062", 4, 0, "TEC", ["S100010"], ""],
+		["Modelos Estructurales de Barra", "S11061", 4, 0, "TEC", ["S100007"], ""],
+		["Electivo 1", "S100013", 4, 0, "COMP", [], ""]
+	],
+	"s5": [
+		["Taller 5: Proyecto y Ciudad", "S11064", 8, 0, "PROY", ["S11059"], ""],
+		["Modelos Estructurales Planos", "S100014", 4, 0, "PROY", ["S11061"], ""],
+		["Proceso de Gestión Urbana", "S100015", 4, 0, "ICS", ["S100009"], ""],
+		["Sistemas Constructivos Avanzados", "S11066", 4, 0, "TEC", ["S11062"], ""],
+		["Electivo 2", "S100016", 4, 0, "COMP", [], ""],
+		["Electivo 3", "S100017", 4, 0, "COMP", [], ""],
+		["Práctica II Social", "S11068", 4, 0, "PRAC", ["S11058"], ""]
+	],
+	"s6": [
+		["Taller 6: Atmósfera y Habitabilidad", "S11070", 8, 0, "PROY", ["S11064"], ""],
+		["Producción del Espacio Urbano", "S11072", 4, 0, "ICS", ["S100015"], ""],
+		["Historia de la Arquitectura", "S11071", 4, 0, "ICS", ["S11063"], ""],
+		["Electivo 4", "S100018", 4, 0, "COMP", [], ""],
+		["Electivo 5", "S100019", 4, 0, "COMP", [], ""],
+		["Electivo 6", "S100020", 4, 0, "COMP", [], ""],
+		["Electivo 7", "S100023", 4, 0, "COMP", [], ""]
+	],
+	"s7": [
+		["Taller 7: Materialidad y Sustentabilidad", "S11073", 8, 0, "PROY", ["S11070"], ""],
+		["Diseño Urbano", "S100021", 4, 0, "ICS", ["S11072"], ""],
+		["Teoría y Crítica de la Arquitectura", "S100022", 4, 0, "ICS", ["S11071"], ""],
+		["Electivo 8", "S100024", 4, 0, "COMP", [], ""],
+		["Electivo 9", "S100026", 4, 0, "COMP", [], ""],
+		["Optativo 3", "S100025", 2, 0, "FG", [], ""],
+		["Práctica III de Obra", "S11076", 8, 0, "PRAC", ["S11068"], ""]
+	],
+	"s8": [
+		["Taller 8: Proyecto Contemporáneo", "S11077", 8, 0, "PROY", ["S11073"], ""],
+		["Diseño Estructural Sísmico", "S11078", 4, 0, "TEC", ["S100014"], ""],
+		["Electivo 10", "S100027", 4, 0, "COMP", [], ""],
+		["Electivo 11", "S100028", 4, 0, "COMP", [], ""],
+		["Electivo 12", "S100029", 4, 0, "COMP", [], ""],
+		["Electivo 13", "S100031", 4, 0, "COMP", [], ""],
+		["Optativo 4", "S100030", 2, 0, "FG", [], ""]
+	],
+	"s9": [
+		["Taller Anteproyecto Área Profundización", "S11084", 4, 0, "PROY", ["S11077", "S11078"], ""],
+		["Investigación Proyectual en Área de Profundización", "S11083", 4, 0, "PROY", ["S11077", "S11078"], ""],
+		["Seminario Profesional", "S11085", 4, 0, "ICS", ["S11077", "S11078"], ""],
+		["Electivo Profundización 1", "S100032", 4, 0, "COMP", ["S11077", "S11078"], ""],
+		["Electivo Profundización 2", "S100033", 4, 0, "COMP", ["S11077", "S11078"], ""],
+		["Práctica IV Profesional", "S11076", 8, 0, "PRAC", ["S11077", "S11078"], ""]
+	],
+	"s10": [
+		["Pretitulo", "S11111", 1, 0, "PROY", ["S11084", "S11083", "S11085", "S11076"], ""]
+	],
+	"s11": [
+		["Titulo", "S11112", 1, 0, "PROY", ["S11111"], ""]
+	]
+}
