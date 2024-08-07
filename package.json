@@ -6,7 +6,6 @@
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "csso-cli": "^3.0.0",
-    "gh-pages": "^6.1.1",
     "terser": "^5.5.1"
   },
   "scripts": {
@@ -17,7 +16,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "browser-sync -w",
     "cleanDev": "./scripts/clean.sh",
-    "predeploy": "npm run build",
+    "predeploy": "npm run devBuild",
     "deploy": "gh-pages -d ."
   },
   "repository": {
@@ -35,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/BooterMan98/malla-interactiva/issues"
   },
-  "homepage": "https://joacaldo7965.github.io/malla-interactiva/"
+  "homepage": "https://joacaldo7965.github.io/malla-interactiva/",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
