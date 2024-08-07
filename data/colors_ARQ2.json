@@ -1,0 +1,8 @@
+{
+	"PROY": ["#364094", "Proyectos"],
+	"ICS": ["#3776AF", "Investigacion y Contexto Social"],
+	"TEC": ["#7279B4", "Tecnologia"],
+	"COMP": ["#A8C3DC", "Asignaturas Complementarias"],
+	"FG": ["#b2b3b7", "Formacion General"],
+	"PRAC": ["#E6E7E9", "Practica"]
+}
